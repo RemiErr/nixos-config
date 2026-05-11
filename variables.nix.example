@@ -1,0 +1,15 @@
+# ── 使用者變數 ───────────────────────────────────────────────────────
+# 將此檔案中的 placeholder 值替換為你的真實設定。
+# 此檔案不含敏感資訊（SSH 金鑰等請另行處理）。
+# ────────────────────────────────────────────────────────────────────
+{
+  username        = "user";           # 系統使用者名稱
+  hostname        = "nixos";          # 主機名稱
+  homeDirectory   = "/home/user";     # 使用者家目錄
+  userDescription = "User";           # 使用者顯示名稱
+
+  git = {
+    name  = "Your Name";              # git commit 顯示名稱
+    email = "your@email.com";         # git commit 信箱
+  };
+}

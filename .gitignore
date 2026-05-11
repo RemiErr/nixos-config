@@ -1,0 +1,6 @@
+*.bak
+*.tmp
+*.log
+.DS_Store
+**/hardware-configuration.nix
+variables.nix
