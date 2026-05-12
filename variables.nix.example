@@ -8,6 +8,8 @@
   homeDirectory   = "/home/user";     # 使用者家目錄
   userDescription = "User";           # 使用者顯示名稱
 
+  editor = "vim";                     # 預設編輯器（vim / nvim / nano ...）
+
   git = {
     name  = "Your Name";              # git commit 顯示名稱
     email = "your@email.com";         # git commit 信箱
